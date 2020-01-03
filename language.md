@@ -81,18 +81,28 @@ All keywords and identifiers in ZScript are case insensitive.
 An AngelScript file can have one of several things at the top level of the
 file:
 
-* Class definitions
-* Structure definitions
-* Enumeration definitions
-* Constant definitions
-* Function definitions
-* Include directives
-<!-- TODO: OTHER STUFF -->
+* Namespaces
+* Functions
+* Variables
+* Virtual properties
+* Script classes
+* Interfaces
+* Mixin class
+* Enums
+* Funcdefs
+* Typedefs
+* Imports
+* Includes
 
+While all these *can* be at the top-level of an AngelScript file it is
+strongly recommended that you **always contain your code within namespaces with
+names unique to your project.** This helps avoid compatibility issues which can
+very easily arise if multiple AngelScript files end up containing things with
+the same name being declared globally.
 
-# Include directives
+# Includes
 
-Include directives include other files to be processed by the AngelScript
+Includes include other files to be processed by the AngelScript
 compiler, allowing you to organize and separate code into different files.
 Their syntax is simple:
 
@@ -121,6 +131,7 @@ Finally, here is a table of contents for each language element:
 
 <!-- inter-toc -->
 
+* [Namespaces](language/Namespaces.md)
 * [Classes](language/Classes.md)
 * [Constants](language/Constants.md)
 * [Enumerations](language/Enumerations.md)
