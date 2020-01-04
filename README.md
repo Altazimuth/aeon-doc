@@ -15,5 +15,8 @@ features if you don't know what they do.
 
 Credit goes to Marrub for the [ZScript documentation](https://github.com/marrub--/zscript-doc),
 which this repository is an altered version of.
+Additionaly credit goes to Andreas Jonsonn, for AngelScript and [its
+documentation](https://www.angelcode.com/angelscript/documentation.html)
+(which is used as a reference and taken from).
 
 <!-- EOF -->
