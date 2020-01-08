@@ -133,13 +133,11 @@ Finally, here is a table of contents for each language element:
 
 * [Namespaces](language/Namespaces.md)
 * [Classes](language/Classes.md)
-* [Constants](language/Constants.md)
 * [Enumerations](language/Enumerations.md)
 * [Expressions](language/Expressions.md)
 * [Members](language/Members.md)
 * [Methods](language/Methods.md)
 * [Statements](language/Statements.md)
-* [Structures](language/Structures.md)
 * [Types](language/Types.md)
 
 <!-- end -->

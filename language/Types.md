@@ -44,7 +44,9 @@ Integer types are basic integral numbers. They include:
 | `uint32_t`  | 32   | 0                          | 4,294,967,295              |
 | `uint64_t`  | 64   | 0                          | 18,446,744,073,709,551,615 |
 
-As the scripting engine has been optimized for 32 bit datatypes, using the smaller variants is only recommended for accessing application specified variables. For local variables it is better to use the 32 bit variant.
+As the scripting engine has been optimized for 32 bit datatypes, using the
+smaller variants is only recommended for accessing application specified
+variables. For local variables it is better to use the 32 bit variant.
 
 Some types have aliases as well:
 
@@ -86,9 +88,9 @@ precise enough to properly represent all values that a `fixed_t` can.
 
 # Strings
 
-| Name         | Usable as argument |
-| ----         | :----------------: |
-| `String`     | Yes                |
+| Name         |
+| ----         |
+| `String`     |
 
 The `String` type is a mutable, garbage-collected string reference type.
 Strings are an object, instances of a class. Their methods are detailed in the
@@ -101,7 +103,7 @@ API section.
 | `vector2` |
 | `vector3` |
 
-There are two vector types in ZScript, `vector2` and `vector3`, which hold two
+There are two vector types in Aeon, `vector2` and `vector3`, which hold two
 and three members, respectively. Their members can be accessed through `x`, `y`
 and (for `vector3`,) `z`. `vector3` can additionally get the X and Y components
 as a `vector2` with `xy`.
@@ -111,9 +113,9 @@ the Expressions and Operators section for more information.
 
 # Arrays
 
-| Name             | Usable as argument |
-| ----             | :----------------: |
-| `array < Type >` | Yes                |
+| Name             |
+| ----             |
+| `array < Type >` |
 
 Arrays take the form `array<Type>`, and hold a dynamic and arbitrary
 number of `Type` elements, which can be accessed with the array access
